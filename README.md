@@ -1,0 +1,2 @@
+# PHP Type Error in Sum Calculation
+This repository demonstrates a common error in PHP: unexpected results from arithmetic operations due to type juggling. The script attempts to sum an array containing both integers and a string. PHP's loose typing allows the string to be coerced into an integer, but this may not always behave as intended, leading to incorrect sums and potential logic errors. The solution shows how to use strict type checking to prevent this type of error.
